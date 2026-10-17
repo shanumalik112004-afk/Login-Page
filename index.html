@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .login-btn {
+            background-color: blue;
+            border-radius: 8px;
+            color: white;
+            border: 1px solid blue;
+            transition: all 0.5s ease;
+        }
+
+        .login-btn:hover {
+            border-color: blueviolet;
+            color: white;
+            background-color: blueviolet;
+            /* width: 300px !important; */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid alert alert-primary">
+        <div class="container my-5">
+            <div class="row">
+
+                <div class="col-sm-6 bg-primary p-5 rounded-start">
+                    <img class="img-fluid p-5"
+                         src="./ChatGPT Image Sep 16, 2026, 10_48_42 AM.png"
+                         alt="">
+                </div>
+
+                <div class="col-sm-6 bg-white rounded-end p-5">
+
+                    <p class="text-secondary mt-4">Welcome Back!</p>
+                    <h2>LOGIN TO YOUR ACCOUNT</h2>
+
+                    <div class="mt-5 input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-user"></i>
+                        </span>
+
+                        <input class="form-control p-2"
+                               type="text"
+                               placeholder="Username"
+                               required>
+                    </div>
+
+                    <div class="mt-4 input-group">
+                        <span class="input-group-text">
+                            <i class="fa-solid fa-unlock-keyhole"></i>
+                        </span>
+
+                        <input class="form-control p-2"
+                               type="password"
+                               placeholder="Password"
+                               required>
+                    </div>
+
+                    <a href="http://127.0.0.1:5500/New%20Login%201.html">
+                        <button class="w-100 mt-4 p-2 login-btn">
+                            LOGIN NOW
+                        </button>
+                    </a>
+
+                    <p class="mt-2">Forgot Password?</p>
+
+                    <div class="d-flex align-items-center gap-3 mt-4">
+                        <hr class="flex-grow-1">
+                        <p class="mb-0 text-nowrap">Or Login With</p>
+                        <hr class="flex-grow-1">
+                    </div>
+
+                    <div class="d-flex mt-4 align-items-center justify-content-center">
+                        <i class="fa-brands fa-google text-primary h3"></i>
+                        <i class="fa-brands fa-apple h3"></i>
+                        <i class="fa-brands fa-microsoft text-danger h3"></i>
+                        <i class="fa-brands fa-facebook text-primary h3"></i>
+                    </div>
+
+                    <p class="text-center mt-3">
+                        Don't have an account?
+                        <span class="text-primary">Sign up for free</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
